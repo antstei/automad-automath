@@ -1,8 +1,8 @@
 # Automad Automath Extension
 
-This extension enables you to display beautiful mathematical notations within your pages by using the KaTeX math typesetting library.
+This extension enables you to display beautiful mathematical notations within your pages by using the [KaTeX math typesetting library](https://katex.org/).
 
-![](https://github.com/antstei/automad-automath/blob/master/images/teaser_image.png?raw=true)
+![](https://raw.githubusercontent.com/antstei/automad-automath/master/images/teaser_image.png)
 
 ## Usage
 
@@ -27,7 +27,7 @@ The following options are available:
 | `source` | `'cdn'` |
 | `defer` | `false` |
 | [`element`](https://katex.org/docs/autorender.html#api) | `'document.body'` |
-| [`delimiters`](https://katex.org/docs/autorender.html#api) | `{"left": "$", "right": "$", "display": false}]'}` |
+| [`delimiters`](https://katex.org/docs/autorender.html#api) | `[{"left": "$", "right": "$", "display": false}]` |
 | [`ignoredTags`](https://katex.org/docs/autorender.html#api) | *By default not set*, hence KaTeX default value `["script", "noscript", "style", "textarea", "pre", "code"]` is used. |
 | [`ignoredClasses`](https://katex.org/docs/autorender.html#api) | *By default not set*. |
 | [`errorCallback`](https://katex.org/docs/autorender.html#api) | *By default not set*. |
