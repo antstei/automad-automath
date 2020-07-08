@@ -1,0 +1,2 @@
+# ignore all *.svgs in image directory
+images/*.svg
