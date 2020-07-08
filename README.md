@@ -16,7 +16,7 @@ inside the head section (`<head> ... </head>`) of the respective template. By pu
 
 mathematical notations are rendered on page load by the user's web browser:
 
-![The Legendre symbol: example usage image of the extension](https://github.com/antstei/automad-automath/blob/master/images/example_usage_image.png?raw=true)
+![The Legendre symbol: example usage image of the extension](https://raw.githubusercontent.com/antstei/automad-automath/master/images/example_usage_image.png)
 
 ## Options
 
@@ -27,7 +27,7 @@ The following options are available:
 | `source` | `'cdn'` |
 | `defer` | `false` |
 | [`element`](https://katex.org/docs/autorender.html#api) | `'document.body'` |
-| [`delimiters`](https://katex.org/docs/autorender.html#api) | `[{"left": "$", "right": "$", "display": false}]` |
+| [`delimiters`](https://katex.org/docs/autorender.html#api) | `'[{"left": "$", "right": "$", "display": false}]'` |
 | [`ignoredTags`](https://katex.org/docs/autorender.html#api) | *By default not set*, hence KaTeX default value `["script", "noscript", "style", "textarea", "pre", "code"]` is used. |
 | [`ignoredClasses`](https://katex.org/docs/autorender.html#api) | *By default not set*. |
 | [`errorCallback`](https://katex.org/docs/autorender.html#api) | *By default not set*. |
